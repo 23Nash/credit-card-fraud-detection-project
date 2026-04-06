@@ -1,0 +1,66 @@
+{
+  "feature_columns": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount"
+  ],
+  "target_column": "Class",
+  "random_state": 42,
+  "contamination": 0.001,
+  "validation_size": 0.2,
+  "contamination_candidates": [
+    0.001,
+    0.0015,
+    0.002,
+    0.003,
+    0.005
+  ],
+  "selected_threshold": -0.016619915160057452,
+  "threshold_metrics": {
+    "threshold": -0.016619915160057452,
+    "precision_fraud": 0.21514629948364888,
+    "recall_fraud": 0.2540650406504065,
+    "f1_fraud": 0.23299161230195714,
+    "pr_auc": 0.12068553613224162,
+    "roc_auc": 0.9480181148557173
+  },
+  "threshold_confusion": {
+    "tn": 283859,
+    "fp": 456,
+    "fn": 367,
+    "tp": 125
+  },
+  "default_confusion": {
+    "tn": 284030,
+    "fp": 285,
+    "fn": 393,
+    "tp": 99
+  }
+}
