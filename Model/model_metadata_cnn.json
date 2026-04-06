@@ -1,0 +1,36 @@
+{
+  "model_type": "cnn_binary_classifier",
+  "dataset_path": "C:\\Users\\Admin\\Documents\\credit-card-fraud-detection-project\\creditcard.csv",
+  "test_metrics": {
+    "pr_auc": 0.7724950276268928,
+    "roc_auc": 0.9769430176403707,
+    "best_threshold": 0.4069746136665344,
+    "best_f1_from_pr_curve": 0.7788461538456555,
+    "threshold_tuned": {
+      "precision": 0.7363636363636363,
+      "recall": 0.826530612244898,
+      "f1": 0.7788461538461539
+    },
+    "default_threshold_0_5": {
+      "precision": 0.7358490566037735,
+      "recall": 0.7959183673469388,
+      "f1": 0.7647058823529411
+    }
+  },
+  "full_dataset_metrics": {
+    "pr_auc": 0.7758592225144658,
+    "roc_auc": 0.9742047638676271,
+    "best_threshold": 0.4069746136665344,
+    "best_f1_from_pr_curve": 0.7878172588827488,
+    "threshold_tuned": {
+      "precision": 0.7870182555780934,
+      "recall": 0.7886178861788617,
+      "f1": 0.7878172588832487
+    },
+    "default_threshold_0_5": {
+      "precision": 0.7941176470588235,
+      "recall": 0.7682926829268293,
+      "f1": 0.78099173553719
+    }
+  }
+}
